@@ -2,8 +2,9 @@
 nativefier version of google chat with instructions on how to build. 
 
 # install
-in order to install this, grab the latest release and the exe, and place the exe in ./Google Chat-win32-x64
+in order to install this, grab the latest release and the exe, and place the exe in ./chat
 it's just too big to store on git apparently.
+the pre-compiled version is windows-x64
 
 # build
 if you want to build it yourself you'll need nodejs and nativefier installed.
