@@ -10,4 +10,4 @@ the pre-compiled version is windows-x64
 if you want to build it yourself you'll need nodejs and nativefier installed.
 here's the nativefier command. for non-windows and non-64 bit versions, you can adjust the platform (osx, linux) and arch (ia32, arm64)
 
-nativefier --name 'Chat' 'https://chat.google.com/' --icon icon.ico --user-agent 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0' --internal-urls ".*?\.google\.*?" --platform windows --arch x64
+nativefier 'https://chat.google.com/' --name Chat --internal-urls ".*?\.google\.*?" --icon "icon.ico"
